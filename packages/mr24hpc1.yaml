@@ -3,8 +3,6 @@ substitutions:
   device_name: Test mmWave MR24HPC1
   header_frame: headers/mrx_frame.h
   header_sensor: headers/mr24hpc1.h
-  uart_rx_pin: "16"
-  uart_tx_pin: "17"
 
 esphome:
   name: ${device_id}
